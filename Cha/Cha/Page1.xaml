@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cha.Page1"
+             Title="Часы">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282828" >
+            <Entry TextColor="#B0B0B0" x:Name="Tim" HorizontalOptions="Fill" IsReadOnly="True" VerticalOptions="Start" Margin="0,0,0,0" FontSize="60" HorizontalTextAlignment="Center" Text="14:30"/>
+            <Entry TextColor="#B0B0B0" x:Name="DateTim" HorizontalOptions="Fill" IsReadOnly="True" VerticalOptions="Start" Margin="0,-20,0,0" FontSize="30" HorizontalTextAlignment="Center" Text="06.Сентября"/>
+            <Button Text="Добавить будильник" Clicked="Button_Clicked" TextTransform="None" HorizontalOptions="Center" FontSize="25" TextColor="#B0B0B0" BackgroundColor="#282828" BorderWidth="4" BorderColor="#B0B0B0"/>
+            <ScrollView>
+                <StackLayout>
+                    
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
